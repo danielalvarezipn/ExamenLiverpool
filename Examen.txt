@@ -1,0 +1,50 @@
+Examen
+
+5- Qué es una API
+Un api es un url que permite la transferencia de informacion entre cliente y servidor, dada ciertos cabeceros de informacion
+6- Qué verbos HTTP soporta una API
+GET 
+POST 
+DELETED 
+UPDATE
+
+7- Cuál es el estándar para definir la especificación o contrato de una API RESful
+XML, JSON, DOCUMENTACION DE METODOS POR ME DIO DE SWAGGER
+8- Lista al menos 3 status codes y su significado
+HTTP.NOT_FOUND 404 NO SE ENCONTRE INFORMACION
+HTTP.CREATED 201 SE CREO CORRECTAMENTE EL RECURSO
+HTTP.INTERNAL_ERROR_SERVER 500 FALLO EN EL SERVICIO
+9- Cuál es la tag annotation para exponer un path en un micro servicio con spring boot en la
+clase Controller
+@RequestMapping
+10- Lista dos comandos básicos de maven para compilar y ejecutar un micro servicio en spring
+boot
+
+mvn clean install
+java -jar target/artecfacto.jar
+
+
+11- Cómo se llama el archivo base para crear una imagen en docker
+DockerFile
+12- Lista el comando para crear una imagen docker y el comando para correrla
+sudo docker build -t artecfacto  .
+docker run -p 8080:8080 artecfacto
+
+13- Cómo se llama el archivo de configuración de actions en Struts 2.
+
+14- Qué es Jboss
+
+un servidor de aplicaciones
+15- Indica el nombre del archivo para IoC con Spring 3 en un proyecto Java web con Struts 2.
+
+16- Indica la clase de spring de la cual hereda una clase dao
+JdbcTemplate
+
+17- Cuál es el estándar de autenticación que requiere un token bearer.
+JWT
+18- Cuál es la sentencia en node js para utilizar los diferentes módulos.
+require
+19- Cuál es el método que usa https y/o express para ejecutar código js y que levante como un
+servidor https en un puerto determinado.
+
+server.listen
